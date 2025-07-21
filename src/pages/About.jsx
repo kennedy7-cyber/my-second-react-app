@@ -17,7 +17,7 @@ const AboutUs = () => {
           <div className="row align-items-center">
             <div className="col-md-6 mb-4 mb-md-0">
               <img
-                src="https://media.istockphoto.com/id/1269398235/photo/tools-construction-supplies.jpg?s=612x612"
+                src="https://media.istockphoto.com/id/2162666018/photo/hand-tools-and-workbench-in-carpentry-workshop.webp?a=1&b=1&s=612x612&w=0&k=20&c=Ek1Qw0yW_qr6SLFUFQ6RP8uTw_4XMk1breJNJIbpEzs="
                 alt="Hardware tools"
                 className="img-fluid rounded shadow"
               />
@@ -90,7 +90,7 @@ const AboutUs = () => {
             <div className="col-md-3">
               <div className="card border-0 shadow h-100">
                 <img
-                  src="https://via.placeholder.com/300x300"
+                  src="https://randomuser.me/api/portraits/men/57.jpg"
                   className="card-img-top"
                   alt="Team member"
                 />
@@ -103,12 +103,12 @@ const AboutUs = () => {
             <div className="col-md-3">
               <div className="card border-0 shadow h-100">
                 <img
-                  src="https://via.placeholder.com/300x300"
+                  src="https://randomuser.me/api/portraits/men/32.jpg"
                   className="card-img-top"
                   alt="Team member"
                 />
                 <div className="card-body">
-                  <h5 className="card-title">Grace Wanjiru</h5>
+                  <h5 className="card-title">samidoh</h5>
                   <p className="card-text text-muted">Operations Manager</p>
                 </div>
               </div>
@@ -118,16 +118,8 @@ const AboutUs = () => {
         </div>
       </section>
 
-      {/* Call to Action */}
-      <section className="py-5 text-center bg-primary text-white">
-        <div className="container">
-          <h2 className="fw-bold">Ready to Build with the Best?</h2>
-          <p className="mb-4">Visit our store or contact us to get started with your next project.</p>
-          <a href="/contact" className="btn btn-light fw-bold">
-            Contact Us
-          </a>
-        </div>
-      </section>
+    
+    
     </div>
   );
 };
