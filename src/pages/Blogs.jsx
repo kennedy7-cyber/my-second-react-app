@@ -1,24 +1,29 @@
-
-import React from 'react';
+import React from "react";
 
 const blogPosts = [
   {
     id: 1,
-    title: 'Choosing the Right Plumbing Materials',
-    summary: 'Learn how to select quality pipes, taps, and fittings for long-lasting plumbing.',
-    details: 'Plumbing materials should be durable, corrosion-resistant, and fit for your water pressure system. Choose PPR pipes for hot water and PVC for drainage. Taps with ceramic discs last longer.',
+    title: "Choosing the Right Plumbing Materials",
+    summary:
+      "Learn how to select quality pipes, taps, and fittings for long-lasting plumbing.",
+    details:
+      "Plumbing materials should be durable, corrosion-resistant, and fit for your water pressure system. Choose PPR pipes for hot water and PVC for drainage. Taps with ceramic discs last longer.",
   },
   {
     id: 2,
-    title: 'Power Tools Every Builder Needs',
-    summary: 'A list of essential tools for any construction project from beginner to pro.',
-    details: 'Must-have tools include drills, grinders, saws, and sanders. Consider cordless tools for mobility. Always check for wattage, RPM, and warranty when buying.',
+    title: "Power Tools Every Builder Needs",
+    summary:
+      "A list of essential tools for any construction project from beginner to pro.",
+    details:
+      "Must-have tools include drills, grinders, saws, and sanders. Consider cordless tools for mobility. Always check for wattage, RPM, and warranty when buying.",
   },
   {
     id: 3,
-    title: 'Safety Gear in Construction Sites',
-    summary: 'Protective gear saves lives. Here’s what you should never forget on site.',
-    details: 'Always wear helmets, steel-toe boots, gloves, and reflective jackets. For dusty jobs, use masks and goggles. Proper safety can reduce worksite injuries by over 60%.',
+    title: "Safety Gear in Construction Sites",
+    summary:
+      "Protective gear saves lives. Here’s what you should never forget on site.",
+    details:
+      "Always wear helmets, steel-toe boots, gloves, and reflective jackets. For dusty jobs, use masks and goggles. Proper safety can reduce worksite injuries by over 60%.",
   },
 ];
 
@@ -33,7 +38,10 @@ const Blog = () => {
       <section className="bg-light py-5 text-center">
         <div className="container">
           <h1 className="fw-bold">Newtech Hardware Blog</h1>
-          <p className="lead">Expert tips, news, and advice from the world of hardware and construction.</p>
+          <p className="lead">
+            Expert tips, news, and advice from the world of hardware and
+            construction.
+          </p>
         </div>
       </section>
 
@@ -67,7 +75,9 @@ const Blog = () => {
                   <div className="modal-dialog">
                     <div className="modal-content">
                       <div className="modal-header">
-                        <h5 className="modal-title" id={`modalLabel${post.id}`}>{post.title}</h5>
+                        <h5 className="modal-title" id={`modalLabel${post.id}`}>
+                          {post.title}
+                        </h5>
                         <button
                           type="button"
                           className="btn-close"
@@ -95,12 +105,6 @@ const Blog = () => {
           </div>
         </div>
       </section>
-
-      <footer className="bg-dark text-white py-4 text-center">
-        <div className="container">
-          <p className="mb-0">&copy; 2025 Newtech Hardware. All rights reserved.</p>
-        </div>
-      </footer>
 
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     </div>
