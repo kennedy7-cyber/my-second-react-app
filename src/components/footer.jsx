@@ -3,9 +3,21 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="bg-dark text-light pt-5 mt-5 shadow-lg ">
+    <footer className="bg-dark text-light pt-5 mt-5 shadow-lg overflow-y-hidden ">
       <div className="container">
-        <div className="row pb-4 border-bottom border-secondary">
+        {/* Logo Row */}
+        <div className="row pb-3 border-bottom border-secondary align-items-center">
+          <div className="col-md-4 mb-3">
+            <img
+              src="/logo.png"
+              alt="NewTech Logo"
+              width="150"
+              className="img-fluid"
+            />
+          </div>
+        </div>
+
+        <div className="row pt-3 pb-4 border-bottom border-secondary">
           {/* Contact Info */}
           <div className="col-md-4 mb-4">
             <h5 className="fw-bold text-warning">📍 Contact</h5>
