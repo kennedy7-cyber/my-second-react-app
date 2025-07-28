@@ -4,6 +4,16 @@ import React from 'react';
 const Navbar = () => {
   return (
     <header>
+      <div className="border-bottom border-secondary align-items-center overflow-hidden ">
+          <div className="col-md-4 mb-3">
+            <img
+              src="/logo.png"
+              alt="NewTech Logo"
+              width="150"
+              className="img-fluid"
+            />
+          </div>
+        </div>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm fixed-top ">
         <div className="container">
           <a className="navbar-brand fw-bold text-uppercase" href="#">
