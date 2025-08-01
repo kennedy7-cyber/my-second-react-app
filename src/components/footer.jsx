@@ -9,9 +9,9 @@ const Footer = () => {
         <div className="row pb-3 border-bottom border-secondary align-items-center">
           <div className="col-md-4 mb-3">
             <img
-              src="/logo.png"
+              src="https://st2.depositphotos.com/5270307/10228/v/950/depositphotos_102286534-stock-illustration-new-tech-logo-template-design.jpg"
               alt="NewTech Logo"
-              width="150"
+              width="70"
               className="img-fluid"
             />
           </div>

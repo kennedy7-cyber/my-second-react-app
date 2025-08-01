@@ -4,17 +4,18 @@ const servicesList = [
   {
     title: "Plumbing Materials",
     desc: "We stock pipes, fittings, taps, and water tanks from trusted brands.",
-    img: "https://media.istockphoto.com/id/1391619870/photo/close-up-sewer-pipes-prepared-for-installation.jpg?s=612x612&w=0&k=20&c=FtoBWesMvmbTVGqYLqKajma8_C94fx2FOJ-qWqWLC14=",
+    img: "https://media.istockphoto.com/id/1471495919/photo/plumbing-fixtures-and-piping-parts-brass-connector-water-valve-for-pipe-brass-water-valve.webp?a=1&b=1&s=612x612&w=0&k=20&c=oWRm6nasCDEo9H4srIkcSsbOVKGGxm5ih1k5iS4JNt4=",
+    
   },
   {
     title: "Construction Tools",
     desc: "Power tools, hand tools, and safety gear for professional builders and DIY projects.",
-    img: "https://images.unsplash.com/photo-1580810734898-5e1753f23337?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y29uc3RydWN0aW9uJTIwJTIwbWF0ZXJpYWxzfGVufDB8fDB8fHww",
+    img: "https://images.unsplash.com/photo-1540103711724-ebf833bde8d1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29uc3RydWN0aW9uJTIwdG9vbHN8ZW58MHx8MHx8fDA%3D",
   },
   {
     title: "Electrical Supplies",
     desc: "We provide wires, bulbs, switches, sockets, and installation accessories.",
-    img: "https://media.istockphoto.com/id/531865876/photo/tools-and-accessories-used-in-electrical-installations.webp?a=1&b=1&s=612x612&w=0&k=20&c=hE3VpEAIUvyLqNlIiq6s7Vkkdox8CItISHpf-_X9pX8=",
+    img: "https://media.istockphoto.com/id/476400336/photo/electrical-equipment.jpg?s=612x612&w=0&k=20&c=iaur-dMSVQO1FDyQjr6g_YDD8mJXhl-4useezOj4tCc=",
   },
   {
     title: "Bathroom & Sanitaryware",
@@ -24,7 +25,7 @@ const servicesList = [
   {
     title: "Building Materials",
     desc: "Cement, roofing sheets, paint, and general construction essentials.",
-    img: "https://media.istockphoto.com/id/1141916790/photo/cement-pouring-on-metal-rod.jpg?s=612x612&w=0&k=20&c=ta5feLYqqRIlQS86D3DFl6SdGPXIOEWwBxgjh4_VPNg=",
+    img: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGJ1aWxkaW5nJTIwbWF0ZXJpYWxzfGVufDB8fDB8fHww",
   },
   {
     title: "Delivery Services",
@@ -54,7 +55,7 @@ const servicesList = [
   {
     title: "Packaging Materials",
     desc: "Cartons, tapes, wraps for moving and storage.",
-    img: "https://media.istockphoto.com/id/1345170562/photo/male-worker-taping-cardboard-box.webp?a=1&b=1&s=612x612&w=0&k=20&c=TGWObqtCA0Il7cQN2RZ-RfVvOBcAuLsY8AByfeUlEDw=",
+    img: "https://media.istockphoto.com/id/694000784/photo/cardboard-box-and-gum-tape.jpg?s=612x612&w=0&k=20&c=9H0G1FgIdGvvFEWYkFNLlHy0MC5oLLLDboXuwBvwxRI=",
   },
   {
     title: "Protective Gear",
@@ -64,17 +65,17 @@ const servicesList = [
   {
     title: "Cleaning Supplies",
     desc: "Cleaning agents, brushes, mops, and sprayers.",
-    img: "https://media.istockphoto.com/id/1139691179/photo/floor-cleaning-with-mob-and-bucket-on-background.webp?a=1&b=1&s=612x612&w=0&k=20&c=nt5hy8ZpOojE9e6KMdyAUpKK51RkIM9R6uwpAOeyzjw=",
+    img: "https://media.istockphoto.com/id/800282932/photo/cleaning-tool.jpg?s=612x612&w=0&k=20&c=cbInObr-zCqoCpaMiJ7Ngq8IPe6IOzXIHTH-566J4Q8=",
   },
   {
     title: "Glass & Window Hardware",
     desc: "Handles, locks, rollers and sliding gear.",
-    img: "https://images.unsplash.com/photo-1544347120-e7b25160378a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Z2xhc3NlcyUyMGFuZCUyMHdpbmRvd3MlMjBvZiUyMGhvdXNlcyUyMG1hdGVyaWFsc3xlbnwwfHwwfHx8MA%3D%3D",
+    img: "https://images.unsplash.com/photo-1731694406474-5a29e656a1cd?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDI1fHx8ZW58MHx8fHx8",
   },
   {
     title: "Furniture Accessories",
     desc: "Bed fittings, cabinet hinges, knobs and handles.",
-    img: "https://media.istockphoto.com/id/1318688379/photo/modern-open-plan-apartment-interior.jpg?s=612x612&w=0&k=20&c=wv2oR5Hz7U7WriLKZWfJ_a1x9EMnwCd8xhvf5cJhRyM=",
+    img: "https://media.istockphoto.com/id/1977853002/photo/various-handles-fasteners-locks-screws-for-furniture-isolated-on-white-background.webp?a=1&b=1&s=612x612&w=0&k=20&c=GhcnuE1lzNmr_UiTxwbGp__D6k1ld4bEtOOoOX2Nl9Y=",
   },
 ];
 
@@ -98,7 +99,7 @@ const Services = () => {
 
       <nav className="navbar navbar-expand-lg navbar-light bg-light sticky-top">
         <div className="container">
-          <a className="navbar-brand fw-bold" href="#">
+          <a className="navbar-brand fw-bold justify-content-center" href="#">
             Newtech Hardware
           </a>
         </div>

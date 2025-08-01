@@ -1,19 +1,9 @@
-
-import React from 'react';
+import React from "react";
 
 const Navbar = () => {
   return (
     <header>
-      <div className="border-bottom border-secondary align-items-center overflow-hidden ">
-          <div className="col-md-4 mb-3">
-            <img
-              src="/logo.png"
-              alt="NewTech Logo"
-              width="150"
-              className="img-fluid"
-            />
-          </div>
-        </div>
+      <div className="border-bottom border-secondary align-items-center overflow-hidden  "></div>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm fixed-top ">
         <div className="container">
           <a className="navbar-brand fw-bold text-uppercase" href="#">
@@ -50,11 +40,9 @@ const Navbar = () => {
               </li>
               <li className="nav-item">
                 <a className="nav-link active" href="services">
-               Services
+                  Services
                 </a>
               </li>
-            
-            
             </ul>
 
             <ul className="navbar-nav mb-2 mb-lg-0">
