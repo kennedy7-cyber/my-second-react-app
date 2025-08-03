@@ -2,9 +2,9 @@ import React from "react";
 
 const AboutUs = () => {
   return (
-    <div className="bg-light">
+    <div className="bg-light ">
       {/* Hero Section */}
-      <section className="py-5 bg-dark text-white text-center">
+      <section className="py-5 bg-dark text-white text-center ">
         <div className="container">
           <h1 className="display-4 fw-bold">
             About Newtech Enterprise Hardware
