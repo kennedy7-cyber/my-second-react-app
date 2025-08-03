@@ -19,16 +19,16 @@ const Contact = () => {
       .then(
         (result) => {
           form.current.reset();
-          setShowModal(true); // Show modal
+          setShowModal(true);
         },
         (error) => {
-          alert("Failed to send the message ❌");
+          alert("❌ Message sending failed. Please try again later.");
           console.error(error.text);
         }
       )
       .catch((err) => {
         console.log("EmailJS Error:", err);
-      })
+      });
   };
 
   return (
@@ -36,7 +36,7 @@ const Contact = () => {
       <h2 className="text-center mb-4 py-3">Contact Us</h2>
 
       <div className="row">
-        {/* Left Side - Contact Form */}
+        {/* Contact Form */}
         <div className="col-lg-8">
           <form ref={form} onSubmit={sendEmail} className="shadow p-4 rounded bg-light">
             <div className="row mb-3">
@@ -69,11 +69,11 @@ const Contact = () => {
           </form>
         </div>
 
-        {/* Right Side - Contact Info */}
+        {/* Contact Info */}
         <div className="col-lg-4 mt-4 mt-lg-0">
-          <div className="p-4 shadow btn-danger bg-light rounded h-100">
+          <div className="p-4 shadow bg-light rounded h-100">
             <h5 className="mb-3 text-primary">📍 Location</h5>
-            <p>kiambu wangige, Kenya</p>
+            <p>Kiambu, Wangige, Kenya</p>
 
             <h5 className="mt-4 mb-3 text-primary">📞 Mobile</h5>
             <p><a href="tel:+254758849440" className="text-decoration-none text-dark">+254 758 849 440</a></p>
@@ -108,20 +108,33 @@ const Contact = () => {
         </a>
       </div>
 
-      {/* ✅ Modal */}
+      {/* ✅ Success Modal */}
       {showModal && (
-        <div className="modal fade show" style={{ display: "block", background: "rgba(0,0,0,0.5)" }}>
+        <div
+          className="modal fade show"
+          tabIndex="-1"
+          style={{ display: "block", backgroundColor: "rgba(0, 0, 0, 0.5)" }}
+          role="dialog"
+          aria-modal="true"
+        >
           <div className="modal-dialog modal-dialog-centered">
-            <div className="modal-content shadow-lg">
-              <div className="modal-header">
-                <h5 className="modal-title">Success ✅</h5>
-                <button type="button" className="btn-close" onClick={() => setShowModal(false)}></button>
+            <div className="modal-content shadow border-0">
+              <div className="modal-header border-0">
+                <h5 className="modal-title text-success">Message Sent Successfully ✅</h5>
+                <button
+                  type="button"
+                  className="btn-close"
+                  onClick={() => setShowModal(false)}
+                  aria-label="Close"
+                ></button>
               </div>
               <div className="modal-body">
-                <p>Check your email for a booking confimation. we'll see you soon</p>
+                <p>Thank you for reaching out. We have received your message and will get back to you shortly.</p>
               </div>
-              <div className="modal-footer">
-                <button className="btn btn-primary" onClick={() => setShowModal(false)}>Close</button>
+              <div className="modal-footer border-0">
+                <button className="btn btn-success w-100" onClick={() => setShowModal(false)}>
+                  Close
+                </button>
               </div>
             </div>
           </div>
@@ -132,3 +145,4 @@ const Contact = () => {
 };
 
 export default Contact;
+
